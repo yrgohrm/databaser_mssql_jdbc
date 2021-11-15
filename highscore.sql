@@ -11,7 +11,7 @@ CREATE TABLE tblHighscore (
 );
 
 INSERT INTO tblHighscore (fldScore, fldName) VALUES (1234, "Nisse");
-INSERT INTO tblHighscore (fldScore, nafldNameme) VALUES (123, "Bosse");
+INSERT INTO tblHighscore (fldScore, fldName) VALUES (123, "Bosse");
 INSERT INTO tblHighscore (fldScore, fldName) VALUES (12, "Nisse");
 INSERT INTO tblHighscore (fldScore, fldName) VALUES (345, "Lena");
 INSERT INTO tblHighscore (fldScore, fldName) VALUES (5678, "Jane");
