@@ -45,3 +45,10 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 .flattened-pom.xml
+
+# configuration
+src/main/resources/configuration.properties
+
+# No log files
+*.log.[0-9]
+*.log.[0-9].lck
