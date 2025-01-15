@@ -27,7 +27,7 @@ CREATE TABLE CustomerOrder
     orderId      INT        NOT NULL IDENTITY(1,1),
     customerId   INT        NOT NULL,
     orderDate    DATETIME2  NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    deliveryDate DATETIME2  NOT NULL,
+    deliveryDate DATE       NOT NULL,
     PRIMARY KEY (orderId),
     FOREIGN KEY (customerId) REFERENCES Customer(customerId),
     CHECK (deliveryDate >= orderDate)
